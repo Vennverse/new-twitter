@@ -75,7 +75,7 @@ const TweetInFeed = ({ profile }) => {
         );
       }).reverse()}
 
-      {/* 
+      
       <div className="feedTweet">
         <img src={defaultImgs[0]} className="profilePic"></img>
         <div className="completeTweet">
@@ -180,7 +180,7 @@ const TweetInFeed = ({ profile }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> 
     </>
   );
 };

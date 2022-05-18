@@ -115,9 +115,9 @@ const Home = () => {
           <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img>
           <div className="tweetBox">
             <TextArea
-              label=""
+              label="What's on your mind"
               name="tweetTxtArea"
-              value="Tweet"
+              value=""
               type="text"
               onChange={(e) => setTweet(e.target.value)}
               width="95%"
