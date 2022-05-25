@@ -18,7 +18,7 @@ const Sidebar = () => {
           
           </div>
 
-          <Link to="/home" className="link">
+          <Link to="/" className="link">
             <div className="menuItems">
               <Icon fill="#ffffff" size={33} svg="list" />
               Home
